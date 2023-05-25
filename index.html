@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumophoric Music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="player">
+        <div class="header">
+            <a href="#" class="button">
+                <i class="fas fa-bars"></i>
+            </a>
+            <p>Now Playing</p>
+            <a href="#" class="button" onclick="openSearch()">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <img src="./images/.jpg" class="art"> <!--Add your .img file to the project -->
+        <div class="info">
+            <h1></h1>                        <!--Add the name of Artist-->
+            <p></p>                          <!--Add the Track name-->
+        </div>
+        <div class="prog">
+            <div class="prog-time">
+                <p class="left">0:00</p>
+                <p class="right">6:56</p>
+            </div>
+            <div class="prog-bar">
+                <div class="prog-bar-inner"></div>
+            </div>
+        </div>
+        <ul class="buttons">
+            <a href="#" class="button button-sm" onclick="toggleRandom()">
+                <i class="fas fa-random fa-sm"></i>
+            </a>
+            <a href="#" class="button button-md" onclick="playPrevious()">
+                <i class="fas fa-step-backward"></i>
+            </a>
+            <a href="#" class="button button-lg" id="playButton" onclick="togglePlay()">
+                <i class="fas fa-play fa-lg"></i>
+            </a>
+            <a href="#" class="button button-sm" onclick="playNext()">
+                <i class="fas fa-step-forward"></i>
+            </a>
+            <a href="#" class="button button-sm" onclick="toggleRepeat()">
+                <i class="fas fa-circle-notch fa-sm"></i>
+            </a>
+        </ul>
+        <div class="bar"></div>
+    </div>
+<script src="https://kit.fontawesome.com/7d35781f0a.js" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+<audio id="audioPlayer" src="./mp3/.mp3"></audio>               <!--Add your music files to the project directory or update the file paths-->
+</body>
+
+</html>
