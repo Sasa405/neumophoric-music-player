@@ -59,3 +59,6 @@ This project is licensed under the [MIT License](LICENSE).
 - Thanks to Font Awesome for providing the beautiful icons used in the player interface.
 
 Feel free to customize this README.md file according to your specific music player implementation and add any additional sections or information that may be relevant.
+
+![Screenshot from 2023-05-25 09-15-27](https://github.com/Sasa405/neumophoric-music-player/assets/118745186/770856c5-4c13-4410-8eff-d22995298563)
+
